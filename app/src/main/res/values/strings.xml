@@ -3,4 +3,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_tab1">home</string>
+    <string name="home_tab2">tab2</string>
+    <string name="home_tab3">tab3</string>
+    <string name="home_tab4">tab4</string>
 </resources>
