@@ -6,6 +6,9 @@ import android.support.v7.app.AppCompatActivity
 import android.view.View
 import com.ox.dream.dreams.base.BaseFgPagerAdapter
 import com.ox.dream.dreams.fragment.FgTab1
+import com.ox.dream.dreams.fragment.FgTab2
+import com.ox.dream.dreams.fragment.FgTab3
+import com.ox.dream.dreams.fragment.FgTab4
 import kotlinx.android.synthetic.main.activity_main.*
 
 const val PAGE_TAB1 = 0
@@ -48,17 +51,16 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         initPages()
 
-
     }
 
     private fun initPages() {
-        var adapter = BaseFgPagerAdapter(supportFragmentManager)
+        val adapter = BaseFgPagerAdapter(supportFragmentManager)
         home_vp.adapter = adapter
-        var fgs = ArrayList<Fragment>()
+        val fgs = mutableListOf<Fragment>().toMutableList()
         fgs.add(FgTab1())
-        fgs.add(FgTab1())
-        fgs.add(FgTab1())
-        fgs.add(FgTab1())
+        fgs.add(FgTab2())
+        fgs.add(FgTab3())
+        fgs.add(FgTab4())
         adapter.addAll(fgs)
     }
 
