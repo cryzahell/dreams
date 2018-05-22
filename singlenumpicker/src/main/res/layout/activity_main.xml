@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#FFFFFFFF"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.FgTab1">
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
-    <com.ox.dream.dreams.custome.TwoNumPicker
-        android:background="#dddddd"
-        android:layout_marginTop="200dp"
+    <com.ox.dream.singlenumpicker.numpicker.SingleNumPicker
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
+        android:layout_height="50dp" />
 
 </LinearLayout>

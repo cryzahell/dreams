@@ -13,7 +13,7 @@ class FgTab1 : BaseFragment() {
     }
 
     override fun initView() {
-        fg_home_tab1_text.text = "fragment home tab1"
+        
     }
 
     override fun initListener() {
